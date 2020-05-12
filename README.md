@@ -11,7 +11,7 @@ Add PlugRailsCookieSessionStore as a dependency to your `mix.exs` file:
 
 ```elixir
 def deps do
-  [{:plug_rails_cookie_session_store, "~> 1.0"}]
+  [{:plug_rails_cookie_session_store, git: "https://github.com/teamapp/plug_rails_cookie_session_store.git"}]
 end
 ```
 
